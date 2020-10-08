@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Toolware - Chrome",
+  "version": "v0.0.1",
+  
+  "default_locale": "en",
+  "description": "Toolware tooling system, but as a Chrome Extension!",
+  "icons": {
+    "default_icon": "default128.png",
+    "16.png",
+    "32.png",
+    "64.png",
+    "128.png",
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+  },
