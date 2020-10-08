@@ -18,3 +18,20 @@
   },
 
   "permissions": ["contextMenus", "storage"],
+  
+  "commands": {
+      "dark-mode": {
+        "suggested_key": {
+          "default": "Ctrl+Alt+d",
+          "mac": "Command+Alt+d"
+        },
+        "description": "Go into Dark Mode"
+      },
+      "light-mode": {
+        "suggested_key": {
+          "default": "Ctrl+Alt+l",
+          "mac": "Command+Alt+l"
+        },
+        "description": "Go into Light Mode"
+      }
+    }
