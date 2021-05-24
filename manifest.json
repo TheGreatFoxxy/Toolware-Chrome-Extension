@@ -1,10 +1,8 @@
 {
-  // Required
   "manifest_version": 3,
   "name": "Toolware Chrome",
   "version": "0.0.1",
 
-  // Recommended
   "action": {
     "popup": "popup.htm"
   },
@@ -17,10 +15,8 @@
     "128": "128.png"
   },
 
-  // Optional
   "author": "TheGreatFoxxy",
   "background": {
-    // Required
     "service_worker": "service.js"
   },
   "homepage_url": "https://github.com/TheGreatFoxxy/Toolware-Chrome-Extension",
@@ -30,6 +26,13 @@
     "chrome_style": true,
     "page": "options.html"
   },
+  "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Alt+W",
+        "mac": "Command+Alt+W",
+        "chromeos": "Ctrl+Alt+W",
+        "linux": "Ctrl+Alt+W"
+      }
   "permissions": ["tabs"],
   "update_url": "http://path/to/updateInfo.xml",
   "version_name": "pre-alpha"
